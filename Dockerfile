@@ -12,3 +12,4 @@ RUN pip install urllib3[secure]
 
 #Clean up cache just to be sure
 RUN apt-get -y clean
+RUN pip install wiringpi rpi.gpio
